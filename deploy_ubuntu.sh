@@ -10,8 +10,8 @@ set -e
 # --- ZMIENNE KONFIGURACYJNE (dostosuj do swoich potrzeb) ---
 SERVICE_NAME="mobywatel"
 PROJECT_USER="ubuntu"
-# Pełna ścieżka do katalogu z kodem źródłowym (tam gdzie jest ten skrypt)
-SOURCE_DIR="/home/ubuntu/test" # <<< UPEWNIJ SIĘ, ŻE TO POPRAWNA ŚCIEŻKA
+# Automatyczne rozpoznawanie ścieżki do katalogu, w którym znajduje się ten skrypt
+SOURCE_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 # Katalog docelowy, gdzie będzie działać aplikacja
 DEST_DIR="/var/www/$SERVICE_NAME"
 # Twoja domena (bez https://)
@@ -21,6 +21,7 @@ SSL_EMAIL="polciohubi19@wp.pl"
 
 
 echo ">>> START: Rozpoczynanie wdrożenia aplikacji $SERVICE_NAME..."
+echo ">>> Wykryto katalog źródłowy: $SOURCE_DIR"
 
 # --- KROK 1: Instalacja podstawowych zależności ---
 echo ">>> KROK 1: Instalowanie Nginx, Pip, Venv i Certbota..."
