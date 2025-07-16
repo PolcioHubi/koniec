@@ -38,6 +38,14 @@ echo ">>> KROK 2.5: Tworzenie katalogu na logi..."
 sudo mkdir -p $DEST_DIR/logs
 sudo chown -R $PROJECT_USER:$PROJECT_USER $DEST_DIR/logs
 
+# --- KROK 2.6: Ustawianie uprawnień do plików ---
+echo ">>> KROK 2.6: Ustawianie szerokich uprawnień do plików i folderów..."
+# UWAGA: Poniższe komendy nadają bardzo szerokie uprawnienia (odczyt/zapis/wykonanie dla wszystkich).
+# Jest to często używane do rozwiązywania problemów z dostępem, ale w środowisku produkcyjnym
+# zaleca się stosowanie bardziej restrykcyjnych uprawnień (np. 755 dla folderów i 644 dla plików).
+sudo find $DEST_DIR -type d -exec chmod 777 {} \;
+sudo find $DEST_DIR -type f -exec chmod 666 {} \;
+
 # --- KROK 3: Konfiguracja środowiska wirtualnego Python ---
 echo ">>> KROK 3: Tworzenie środowiska wirtualnego i instalacja zależności..."
 cd $DEST_DIR
