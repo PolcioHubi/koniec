@@ -1,0 +1,18 @@
+{
+  "17V2FRXh4c0jP4u_tQBz4LgXQkpznkr3H0BSKXlcylI": {
+    "description": "",
+    "created_at": "2025-07-12T01:35:14.147549",
+    "expires_at": "2025-08-11T01:35:14.147549",
+    "is_active": false,
+    "used_count": 1,
+    "last_used": "2025-07-12T01:35:26.438958"
+  },
+  "ZgGtGeOupkAmXLWJuuKXpSXDNIPAkwwqWI13CH22hM0": {
+    "description": "",
+    "created_at": "2025-07-12T04:31:15.761287",
+    "expires_at": "2025-08-11T04:31:15.760650",
+    "is_active": true,
+    "used_count": 0,
+    "last_used": null
+  }
+}

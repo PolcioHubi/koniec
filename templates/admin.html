@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Administracyjny</title>
+    <link rel="stylesheet" href="/static/css/admin.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔧 Panel Administracyjny</h1>
+            <a href="/admin/logout" class="logout-btn">Wyloguj</a>
+        </div>
+
+        <div id="alertContainer"></div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <h3 id="totalUsers">-</h3>
+                <p>Łączna liczba użytkowników</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="totalFiles">-</h3>
+                <p>Łączna liczba plików</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="totalSize">-</h3>
+                <p>Łączny rozmiar danych</p>
+            </div>
+        </div>
+
+        <div class="users-section">
+            <h2>Zarządzanie użytkownikami</h2>
+            <button class="refresh-btn" onclick="loadUsersData()">🔄 Odśwież dane</button>
+            <input type="text" id="searchBox" class="search-box" placeholder="Szukaj użytkowników...">
+            
+            <div id="loadingIndicator" class="loading">
+                <div class="spinner"></div>
+                <p>Ładowanie danych użytkowników...</p>
+            </div>
+
+            <table id="usersTable" class="users-table" style="display: none;">
+                <thead>
+                    <tr>
+                        <th style="width: 20%;">Nazwa użytkownika</th>
+                        <th style="width: 15%;">Data utworzenia</th>
+                        <th style="width: 20%;">Ostatnia aktywność</th>
+                        <th style="width: 10%;">Liczba plików</th>
+                        <th style="width: 10%;">Rozmiar</th>
+                        <th class="actions-column" style="width: 25%;">Akcje</th>
+                    </tr>
+                </thead>
+                <tbody id="usersTableBody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Modal do wyświetlania logów -->
+    <div id="logsModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeLogsModal()">&times;</span>
+            <h2 id="logsModalTitle">Logi użytkownika</h2>
+            <div id="logsContent" class="log-content">Ładowanie logów...</div>
+        </div>
+    </div>
+
+    <script>
+        let usersData = [];
+        let isLoading = false;
+
+        // Funkcje do zarządzania alertami
+        function showAlert(message, type = 'success') {
+            const alertContainer = document.getElementById('alertContainer');
+            const alertDiv = document.createElement('div');
+            alertDiv.className = `alert alert-${type}`;
+            alertDiv.innerHTML = `
+                ${message}
+                <button onclick="this.parentElement.remove()" style="float: right; background: none; border: none; font-size: 18px; cursor: pointer;">&times;</button>
+            `;
+            alertContainer.appendChild(alertDiv);
+            
+            setTimeout(() => {
+                if (alertDiv.parentElement) {
+                    alertDiv.remove();
+                }
+            }, 8000);
+        }
+
+        // Ładowanie danych użytkowników
+        function loadUsersData() {
+            if (isLoading) return;
+            
+            isLoading = true;
+            document.getElementById('loadingIndicator').style.display = 'block';
+            document.getElementById('usersTable').style.display = 'none';
+            
+            fetch('/admin/api/users')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (data.success) {
+                        usersData = data.users;
+                        updateStats(data.stats);
+                        displayUsers(usersData);
+                        document.getElementById('loadingIndicator').style.display = 'none';
+                        document.getElementById('usersTable').style.display = 'table';
+                        showAlert(`Załadowano dane ${data.users.length} użytkowników`);
+                    } else {
+                        throw new Error(data.error || 'Nieznany błąd');
+                    }
+                })
+                .catch(error => {
+                    console.error('Błąd:', error);
+                    showAlert('Wystąpił błąd podczas ładowania danych: ' + error.message, 'error');
+                    document.getElementById('loadingIndicator').style.display = 'none';
+                })
+                .finally(() => {
+                    isLoading = false;
+                });
+        }
+
+        // Aktualizacja statystyk
+        function updateStats(stats) {
+            document.getElementById('totalUsers').textContent = stats.total_users;
+            document.getElementById('totalFiles').textContent = stats.total_files;
+            document.getElementById('totalSize').textContent = formatFileSize(stats.total_size);
+        }
+
+        // Formatowanie rozmiaru pliku
+        function formatFileSize(bytes) {
+            if (bytes === 0) return '0 B';
+            const k = 1024;
+            const sizes = ['B', 'KB', 'MB', 'GB', 'TB'];
+            const i = Math.floor(Math.log(bytes) / Math.log(k));
+            return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+        }
+
+        // Wyświetlanie użytkowników w tabeli
+        function displayUsers(users) {
+            const tbody = document.getElementById('usersTableBody');
+            tbody.innerHTML = '';
+
+            if (users.length === 0) {
+                const row = document.createElement('tr');
+                row.innerHTML = '<td colspan="6" style="text-align: center; color: #666;">Brak użytkowników do wyświetlenia</td>';
+                tbody.appendChild(row);
+                return;
+            }
+
+            users.forEach(user => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td title="${user.name}">${user.name}</td>
+                    <td>${user.created_date}</td>
+                    <td>${user.last_activity}</td>
+                    <td>${user.file_count}</td>
+                    <td>${formatFileSize(user.total_size)}</td>
+                    <td class="actions-column">
+                        <button class="action-btn download-btn" onclick="downloadUserFiles('${user.name}')" title="Pobierz pliki użytkownika">
+                            📥 Pobierz
+                        </button>
+                        <button class="action-btn view-logs-btn" onclick="viewUserLogs('${user.name}')" title="Zobacz logi użytkownika">
+                            📋 Logi
+                        </button>
+                        <button class="action-btn delete-btn" onclick="deleteUser('${user.name}')" title="Usuń użytkownika">
+                            🗑️ Usuń
+                        </button>
+                    </td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        // Wyszukiwanie użytkowników
+        document.getElementById('searchBox').addEventListener('input', function(e) {
+            const searchTerm = e.target.value.toLowerCase();
+            const filteredUsers = usersData.filter(user => 
+                user.name.toLowerCase().includes(searchTerm)
+            );
+            displayUsers(filteredUsers);
+        });
+
+        // Pobieranie plików użytkownika
+        function downloadUserFiles(userName) {
+            try {
+                const link = document.createElement('a');
+                link.href = `/admin/api/download-user/${encodeURIComponent(userName)}`;
+                link.download = `${userName}_backup.zip`;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                showAlert(`Rozpoczęto pobieranie plików użytkownika: ${userName}`);
+            } catch (error) {
+                console.error('Błąd podczas pobierania:', error);
+                showAlert('Wystąpił błąd podczas pobierania plików', 'error');
+            }
+        }
+
+        // Wyświetlanie logów użytkownika
+        function viewUserLogs(userName) {
+            document.getElementById('logsModalTitle').textContent = `Logi użytkownika: ${userName}`;
+            document.getElementById('logsContent').innerHTML = '<div class="spinner"></div><p>Ładowanie logów...</p>';
+            document.getElementById('logsModal').style.display = 'block';
+
+            fetch(`/admin/api/user-logs/${encodeURIComponent(userName)}`)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (data.success) {
+                        document.getElementById('logsContent').textContent = data.logs || 'Brak dostępnych logów';
+                    } else {
+                        throw new Error(data.error || 'Nieznany błąd');
+                    }
+                })
+                .catch(error => {
+                    console.error('Błąd:', error);
+                    document.getElementById('logsContent').textContent = 'Błąd podczas ładowania logów: ' + error.message;
+                });
+        }
+
+        // Zamykanie modala z logami
+        function closeLogsModal() {
+            document.getElementById('logsModal').style.display = 'none';
+        }
+
+        // Usuwanie użytkownika
+        function deleteUser(userName) {
+            if (!confirm(`Czy na pewno chcesz usunąć użytkownika "${userName}" i wszystkie jego dane?\n\nTa operacja jest NIEODWRACALNA!`)) {
+                return;
+            }
+
+            // Dodatkowe potwierdzenie dla bezpieczeństwa
+            const confirmText = prompt(`Aby potwierdzić usunięcie, wpisz nazwę użytkownika: "${userName}"`);
+            if (confirmText !== userName) {
+                showAlert('Usuwanie anulowane - nieprawidłowa nazwa użytkownika', 'error');
+                return;
+            }
+
+            fetch(`/admin/api/delete-user/${encodeURIComponent(userName)}`, {
+                method: 'DELETE',
+                headers: {
+                    'Content-Type': 'application/json',
+                }
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data.success) {
+                    showAlert(`Użytkownik "${userName}" został pomyślnie usunięty`);
+                    loadUsersData(); // Odśwież listę
+                } else {
+                    throw new Error(data.error || 'Nieznany błąd');
+                }
+            })
+            .catch(error => {
+                console.error('Błąd:', error);
+                showAlert('Wystąpił błąd podczas usuwania użytkownika: ' + error.message, 'error');
+            });
+        }
+
+        // Zamykanie modala po kliknięciu poza nim
+        window.onclick = function(event) {
+            const modal = document.getElementById('logsModal');
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        }
+
+        // Obsługa klawisza Escape
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeLogsModal();
+            }
+        });
+
+        // Inicjalizacja przy załadowaniu strony
+        window.addEventListener('load', function() {
+            loadUsersData();
+        });
+
+        // Auto-refresh co 30 sekund (opcjonalne)
+        setInterval(function() {
+            if (!isLoading && document.getElementById('usersTable').style.display !== 'none') {
+                loadUsersData();
+            }
+        }, 30000);
+    </script>
+</body>
+</html>
+

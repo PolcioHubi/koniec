@@ -1,0 +1,268 @@
+[2025-07-16 20:51:50 +0300] [72217] [INFO] Starting gunicorn 23.0.0
+[2025-07-16 20:51:50 +0300] [72217] [INFO] Listening at: unix:/var/www/mobywatel/mobywatel.sock (72217)
+[2025-07-16 20:51:50 +0300] [72217] [INFO] Using worker: sync
+[2025-07-16 20:51:50 +0300] [72227] [INFO] Booting worker with pid: 72227
+[2025-07-16 20:51:50 +0300] [72228] [INFO] Booting worker with pid: 72228
+[2025-07-16 20:51:50 +0300] [72229] [INFO] Booting worker with pid: 72229
+[2025-07-16 20:52:02,227] DEBUG in app: Request: GET /admin/ from 
+[2025-07-16 20:52:02,560] DEBUG in app: Request: GET /admin/api/users from 
+[2025-07-16 20:52:02,672] DEBUG in app: Request: GET /admin/api/registered-users from 
+[2025-07-16 20:52:02,737] DEBUG in app: Request: GET /admin/api/access-keys from 
+[2025-07-16 20:52:04,823] DEBUG in app: Request: GET /admin/logout from 
+[2025-07-16 20:52:04,877] DEBUG in app: Request: GET /admin/login from 
+[2025-07-16 20:52:07,140] DEBUG in app: Request: POST /admin/login from 
+[2025-07-16 20:52:07,210] DEBUG in app: Request: GET /admin from 
+[2025-07-16 20:52:07,266] DEBUG in app: Request: GET /admin/ from 
+[2025-07-16 20:52:07,425] DEBUG in app: Request: GET /admin/api/users from 
+[2025-07-16 20:52:07,484] DEBUG in app: Request: GET /admin/api/registered-users from 
+[2025-07-16 20:52:07,549] DEBUG in app: Request: GET /admin/api/access-keys from 
+[2025-07-16 20:52:14,035] DEBUG in app: Request: GET /wp-admin/setup-config.php from 
+[2025-07-16 20:52:52,487] DEBUG in app: Request: POST /admin/api/generate-access-key from 
+[2025-07-16 20:52:52,543] DEBUG in app: Request: GET /admin/api/access-keys from 
+[2025-07-16 20:52:55,685] DEBUG in app: Request: GET /admin/logout from 
+[2025-07-16 20:52:55,738] DEBUG in app: Request: GET /admin/login from 
+[2025-07-16 20:52:56,783] DEBUG in app: Request: GET / from 
+[2025-07-16 20:52:58,659] DEBUG in app: Request: GET /register from 
+[2025-07-16 20:53:05,686] DEBUG in app: Request: POST /register from 
+[2025-07-16 20:53:09,302] DEBUG in app: Request: GET /login from 
+[2025-07-16 20:53:22,620] DEBUG in app: Request: POST /login from 
+[2025-07-16 20:53:22,622] DEBUG in app: Login attempt for user: 'Polcio' from IP: 
+[2025-07-16 20:53:22,905] INFO in app: User 'Polcio' logged in successfully.
+[2025-07-16 20:53:23,968] DEBUG in app: Request: GET / from 
+[2025-07-16 20:53:25,340] DEBUG in app: Request: GET /profile from 
+[2025-07-16 20:53:26,468] DEBUG in app: Request: GET / from 
+[2025-07-16 20:53:31,443] DEBUG in app: Request: POST / from 
+[2025-07-16 20:54:56,197] DEBUG in app: Request: GET /wp-admin/setup-config.php from 
+[2025-07-16 20:55:01,067] DEBUG in app: Request: GET /wordpress/wp-admin/setup-config.php from 
+[2025-07-16 20:55:15 +0300] [72229] [INFO] Worker exiting (pid: 72229)
+[2025-07-16 20:55:15 +0300] [72227] [INFO] Worker exiting (pid: 72227)
+[2025-07-16 20:55:15 +0300] [72228] [INFO] Worker exiting (pid: 72228)
+[2025-07-16 20:55:15 +0300] [72217] [INFO] Handling signal: term
+[2025-07-16 20:55:15 +0300] [72217] [ERROR] Worker (pid:72227) was sent SIGTERM!
+[2025-07-16 20:55:15 +0300] [72217] [ERROR] Worker (pid:72228) was sent SIGTERM!
+[2025-07-16 20:55:15 +0300] [72217] [ERROR] Worker (pid:72229) was sent SIGTERM!
+[2025-07-16 20:55:15 +0300] [72217] [INFO] Shutting down: Master
+[2025-07-16 20:55:15 +0300] [72263] [INFO] Starting gunicorn 23.0.0
+[2025-07-16 20:55:15 +0300] [72263] [INFO] Listening at: unix:/var/www/mobywatel/mobywatel.sock (72263)
+[2025-07-16 20:55:15 +0300] [72263] [INFO] Using worker: sync
+[2025-07-16 20:55:15 +0300] [72265] [INFO] Booting worker with pid: 72265
+[2025-07-16 20:55:16 +0300] [72266] [INFO] Booting worker with pid: 72266
+[2025-07-16 20:55:16 +0300] [72267] [INFO] Booting worker with pid: 72267
+[2025-07-16 20:55:25,712] DEBUG in app: Request: GET / from 
+[2025-07-16 20:55:31,485] DEBUG in app: Request: POST / from 
+[2025-07-16 20:55:35,258] DEBUG in app: Request: GET /profile from 
+[2025-07-16 20:55:35,435] DEBUG in app: Request: GET /wordpress/wp-admin/setup-config.php from 
+[2025-07-16 20:55:36,173] DEBUG in app: Request: GET /logowaniedozmodyfikowanieplikuhtml from 
+[2025-07-16 20:55:37,666] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 20:55:38,585] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 20:55:38,929] DEBUG in app: Request: GET /user_files/dowodnowy.html from 
+[2025-07-16 20:55:39,207] DEBUG in app: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from 
+[2025-07-16 20:55:39,384] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 20:55:45,134] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 20:55:45,427] DEBUG in app: Request: GET /user_files/dowodnowy.html from 
+[2025-07-16 20:55:45,777] DEBUG in app: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from 
+[2025-07-16 20:55:45,909] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 20:55:47,013] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 20:55:47,418] DEBUG in app: Request: GET /logowaniedozmodyfikowanieplikuhtml from 
+[2025-07-16 20:55:49,569] DEBUG in app: Request: GET /profile from 
+[2025-07-16 20:59:12,512] DEBUG in app: Request: GET /profile from 
+[2025-07-16 21:01:35,537] DEBUG in app: Request: GET /favicon.ico from 
+[2025-07-16 21:01:47,413] DEBUG in app: Request: POST /login from 
+[2025-07-16 21:01:47,415] DEBUG in app: Login attempt for user: 'Polcio' from IP: 
+[2025-07-16 21:01:47,695] INFO in app: User 'Polcio' logged in successfully.
+[2025-07-16 21:01:48,850] DEBUG in app: Request: GET / from 
+[2025-07-16 21:01:48,951] DEBUG in app: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from 
+[2025-07-16 21:01:51,038] DEBUG in app: Request: GET /profile from 
+[2025-07-16 21:01:51,999] DEBUG in app: Request: GET /logowaniedozmodyfikowanieplikuhtml from 
+[2025-07-16 21:01:53,592] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:02:10,164] DEBUG in app: Request: GET /.well-known/assetlinks.json from 
+[2025-07-16 21:02:10,170] DEBUG in app: Request: GET /.well-known/assetlinks.json from 
+[2025-07-16 21:02:11,653] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:02:12,407] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:02:12,708] DEBUG in app: Request: GET /user_files/dowodnowy.html from 
+[2025-07-16 21:02:12,919] DEBUG in app: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from 
+[2025-07-16 21:02:13,010] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:02:17,105] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:02:18,214] DEBUG in app: Request: GET / from 
+[2025-07-16 21:02:18,584] DEBUG in app: Request: GET /favicon.ico from 
+[2025-07-16 21:03:01,047] DEBUG in app: Request: GET /wp-admin/install.php from 
+[2025-07-16 21:03:05,219] DEBUG in app: Request: GET /wp/wp-admin/install.php from 
+[2025-07-16 21:03:08,643] DEBUG in app: Request: GET / from 
+[2025-07-16 21:03:10,045] DEBUG in app: Request: GET /new/wp-admin/install.php from 
+[2025-07-16 21:03:12,832] DEBUG in app: Request: GET / from 
+[2025-07-16 21:03:13,216] DEBUG in app: Request: GET /favicon.ico from 
+[2025-07-16 21:03:14,062] DEBUG in app: Request: GET /old/wp-admin/install.php from 
+[2025-07-16 21:03:16,732] DEBUG in app: Request: GET /wordpress/wp-admin/install.php from 
+[2025-07-16 21:03:19,471] DEBUG in app: Request: GET /test/wp-admin/install.php from 
+[2025-07-16 21:03:55,145] DEBUG in app: Request: GET /blog/wp-admin/install.php from 
+[2025-07-16 21:03:58,026] DEBUG in app: Request: GET /cms/wp-admin/install.php from 
+[2025-07-16 21:04:01,666] DEBUG in app: Request: GET /web/wp-admin/install.php from 
+[2025-07-16 21:04:04,928] DEBUG in app: Request: GET /backup/wp-admin/install.php from 
+[2025-07-16 21:04:07,534] DEBUG in app: Request: GET /site/wp-admin/install.php from 
+[2025-07-16 21:04:58,733] DEBUG in app: Request: GET /oldsite/wp-admin/install.php from 
+[2025-07-16 21:05:02,053] DEBUG in app: Request: GET /shop/wp-admin/install.php from 
+[2025-07-16 21:05:49,256] DEBUG in app: Request: GET / from 
+[2025-07-16 21:10:42,305] DEBUG in app: Request: GET /wp-admin/setup-config.php from 
+[2025-07-16 21:11:45,422] DEBUG in app: Request: GET /wp-admin/setup-config.php from 
+[2025-07-16 21:12:44,956] DEBUG in app: Request: GET /wordpress/wp-admin/setup-config.php from 
+[2025-07-16 21:12:48,809] DEBUG in app: Request: GET /wordpress/wp-admin/setup-config.php from 
+[2025-07-16 21:14:56,983] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:14:58,473] DEBUG in app: Request: GET / from 
+[2025-07-16 21:18:45,309] DEBUG in app: Request: GET / from 
+[2025-07-16 21:18:45,413] DEBUG in app: Request: GET /favicon.ico from 
+[2025-07-16 21:19:01,316] DEBUG in app: Request: GET /register from 
+[2025-07-16 21:19:03,312] DEBUG in app: Request: GET /login from 
+[2025-07-16 21:19:04,771] DEBUG in app: Request: POST /login from 
+[2025-07-16 21:19:04,772] DEBUG in app: Login attempt for user: 'Polcio' from IP: 
+[2025-07-16 21:19:05,046] WARNING in app: Login failed for user 'Polcio': Nieprawidłowa nazwa użytkownika lub hasło
+[2025-07-16 21:19:12,997] DEBUG in app: Request: POST /login from 
+[2025-07-16 21:19:12,998] DEBUG in app: Login attempt for user: 'Polcio' from IP: 
+[2025-07-16 21:19:13,274] WARNING in app: Login failed for user 'Polcio': Nieprawidłowa nazwa użytkownika lub hasło
+[2025-07-16 21:19:33,647] DEBUG in app: Request: POST /login from 
+[2025-07-16 21:19:33,648] DEBUG in app: Login attempt for user: 'Polcio' from IP: 
+[2025-07-16 21:19:33,921] WARNING in app: Login failed for user 'Polcio': Nieprawidłowa nazwa użytkownika lub hasło
+[2025-07-16 21:20:35,550] DEBUG in app: Request: POST /login from 
+[2025-07-16 21:20:35,552] DEBUG in app: Login attempt for user: 'Polcio' from IP: 
+[2025-07-16 21:20:35,824] WARNING in app: Login failed for user 'Polcio': Nieprawidłowa nazwa użytkownika lub hasło
+[2025-07-16 21:22:18 +0300] [72265] [INFO] Worker exiting (pid: 72265)
+[2025-07-16 21:22:18 +0300] [72266] [INFO] Worker exiting (pid: 72266)
+[2025-07-16 21:22:18 +0300] [72267] [INFO] Worker exiting (pid: 72267)
+[2025-07-16 21:22:18 +0300] [72263] [INFO] Handling signal: term
+[2025-07-16 21:22:18 +0300] [72263] [ERROR] Worker (pid:72266) was sent SIGTERM!
+[2025-07-16 21:22:18 +0300] [72263] [ERROR] Worker (pid:72267) was sent SIGTERM!
+[2025-07-16 21:22:18 +0300] [72263] [ERROR] Worker (pid:72265) was sent SIGTERM!
+[2025-07-16 21:22:18 +0300] [72263] [INFO] Shutting down: Master
+[2025-07-16 21:22:18 +0300] [72361] [INFO] Starting gunicorn 23.0.0
+[2025-07-16 21:22:18 +0300] [72361] [INFO] Listening at: unix:/var/www/mobywatel/mobywatel.sock (72361)
+[2025-07-16 21:22:18 +0300] [72361] [INFO] Using worker: sync
+[2025-07-16 21:22:18 +0300] [72364] [INFO] Booting worker with pid: 72364
+[2025-07-16 21:22:18 +0300] [72365] [INFO] Booting worker with pid: 72365
+[2025-07-16 21:22:18 +0300] [72366] [INFO] Booting worker with pid: 72366
+[2025-07-16 21:22:28,848] DEBUG in app: Request: GET /login from 
+[2025-07-16 21:22:30,224] DEBUG in app: Request: POST /login from 
+[2025-07-16 21:22:30,225] DEBUG in app: Login attempt for user: 'Polcio' from IP: 
+[2025-07-16 21:22:30,497] WARNING in app: Login failed for user 'Polcio': Nieprawidłowa nazwa użytkownika lub hasło
+[2025-07-16 21:22:31,597] DEBUG in app: Request: POST /login from 
+[2025-07-16 21:22:31,598] DEBUG in app: Login attempt for user: 'Polcio' from IP: 
+[2025-07-16 21:22:31,871] WARNING in app: Login failed for user 'Polcio': Nieprawidłowa nazwa użytkownika lub hasło
+[2025-07-16 21:22:34,069] DEBUG in app: Request: GET /admin/login from 
+[2025-07-16 21:22:35,607] DEBUG in app: Request: POST /admin/login from 
+[2025-07-16 21:22:37,312] DEBUG in app: Request: POST /admin/login from 
+[2025-07-16 21:23:03,481] DEBUG in app: Request: POST /admin/login from 
+[2025-07-16 21:23:03,542] DEBUG in app: Request: GET /admin from 
+[2025-07-16 21:23:03,587] DEBUG in app: Request: GET /admin/ from 
+[2025-07-16 21:23:03,657] DEBUG in app: Request: GET /admin/api/users from 
+[2025-07-16 21:23:03,721] DEBUG in app: Request: GET /admin/api/registered-users from 
+[2025-07-16 21:23:03,754] DEBUG in app: Request: GET /admin/api/access-keys from 
+[2025-07-16 21:23:07,401] DEBUG in app: Request: GET /admin/ from 
+[2025-07-16 21:23:07,488] DEBUG in app: Request: GET /admin/login from 
+[2025-07-16 21:23:08,447] DEBUG in app: Request: GET /admin/logout from 
+[2025-07-16 21:23:08,481] DEBUG in app: Request: GET /admin/login from 
+[2025-07-16 21:23:10,193] DEBUG in app: Request: GET / from 
+[2025-07-16 21:23:11,711] DEBUG in app: Request: GET /admin from 
+[2025-07-16 21:23:11,757] DEBUG in app: Request: GET /admin/ from 
+[2025-07-16 21:23:11,792] DEBUG in app: Request: GET /admin/login from 
+[2025-07-16 21:23:13,011] DEBUG in app: Request: POST /admin/login from 
+[2025-07-16 21:23:13,071] DEBUG in app: Request: GET /admin from 
+[2025-07-16 21:23:13,117] DEBUG in app: Request: GET /admin/ from 
+[2025-07-16 21:23:13,188] DEBUG in app: Request: GET /admin/api/users from 
+[2025-07-16 21:23:13,228] DEBUG in app: Request: GET /admin/api/registered-users from 
+[2025-07-16 21:23:13,271] DEBUG in app: Request: GET /admin/api/access-keys from 
+[2025-07-16 21:23:25,072] DEBUG in app: Request: POST /admin/api/reset-password from 
+[2025-07-16 21:23:26,916] DEBUG in app: Request: GET /admin/logout from 
+[2025-07-16 21:23:26,957] DEBUG in app: Request: GET /admin/login from 
+[2025-07-16 21:23:27,908] DEBUG in app: Request: GET / from 
+[2025-07-16 21:23:28,811] DEBUG in app: Request: GET /login from 
+[2025-07-16 21:23:30,413] DEBUG in app: Request: POST /login from 
+[2025-07-16 21:23:30,414] DEBUG in app: Login attempt for user: 'Polcio' from IP: 
+[2025-07-16 21:23:30,689] INFO in app: User 'Polcio' logged in successfully.
+[2025-07-16 21:23:31,746] DEBUG in app: Request: GET / from 
+[2025-07-16 21:23:31,806] DEBUG in app: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from 
+[2025-07-16 21:23:32,980] DEBUG in app: Request: GET /profile from 
+[2025-07-16 21:23:34,031] DEBUG in app: Request: GET / from 
+[2025-07-16 21:23:34,086] DEBUG in app: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from 
+[2025-07-16 21:23:34,911] DEBUG in app: Request: GET /profile from 
+[2025-07-16 21:23:35,517] DEBUG in app: Request: GET /logowaniedozmodyfikowanieplikuhtml from 
+[2025-07-16 21:23:37,443] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:23:53,302] DEBUG in app: Request: GET /.well-known/assetlinks.json from 
+[2025-07-16 21:23:53,312] DEBUG in app: Request: GET /.well-known/assetlinks.json from 
+[2025-07-16 21:23:54,837] DEBUG in app: Request: GET / from 
+[2025-07-16 21:23:54,888] DEBUG in app: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from 
+[2025-07-16 21:23:56,598] DEBUG in app: Request: GET / from 
+[2025-07-16 21:23:56,663] DEBUG in app: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from 
+[2025-07-16 21:23:58,111] DEBUG in app: Request: GET / from 
+[2025-07-16 21:23:58,167] DEBUG in app: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from 
+[2025-07-16 21:24:14,026] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:24:15,633] DEBUG in app: Request: GET / from 
+[2025-07-16 21:24:29,550] DEBUG in app: Request: GET / from 
+[2025-07-16 21:24:31,514] DEBUG in app: Request: GET /.well-known/assetlinks.json from 
+[2025-07-16 21:24:31,533] DEBUG in app: Request: GET /.well-known/assetlinks.json from 
+[2025-07-16 21:24:33,953] DEBUG in app: Request: GET / from 
+[2025-07-16 21:24:34,043] DEBUG in app: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from 
+[2025-07-16 21:24:35,561] DEBUG in app: Request: GET /profile from 
+[2025-07-16 21:24:36,437] DEBUG in app: Request: GET /logowaniedozmodyfikowanieplikuhtml from 
+[2025-07-16 21:24:37,862] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:24:38,711] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:24:39,058] DEBUG in app: Request: GET /user_files/dowodnowy.html from 
+[2025-07-16 21:24:39,323] DEBUG in app: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from 
+[2025-07-16 21:24:39,396] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:24:40,047] DEBUG in app: Request: GET / from 
+[2025-07-16 21:24:40,614] DEBUG in app: Request: GET /user_files/dowodnowy.html from 
+[2025-07-16 21:24:40,649] DEBUG in app: Request: GET /login from 
+[2025-07-16 21:24:42,518] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:24:43,468] DEBUG in app: Request: GET /user_files/dowodnowy.html from 
+[2025-07-16 21:24:43,518] DEBUG in app: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from 
+[2025-07-16 21:24:43,571] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:24:47,741] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:24:51,293] DEBUG in app: Request: GET / from 
+[2025-07-16 21:24:51,401] DEBUG in app: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from 
+[2025-07-16 21:25:13,914] DEBUG in app: Request: GET / from 
+[2025-07-16 21:26:38,411] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:26:41,716] DEBUG in app: Request: GET / from 
+[2025-07-16 21:26:41,841] DEBUG in app: Request: GET /favicon.ico from 
+[2025-07-16 21:26:55,780] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:27:14,392] DEBUG in app: Request: GET / from 
+[2025-07-16 21:27:33,382] DEBUG in app: Request: GET / from 
+[2025-07-16 21:27:34,339] DEBUG in app: Request: GET /login from 
+[2025-07-16 21:27:45,865] DEBUG in app: Request: POST /login from 
+[2025-07-16 21:27:45,866] DEBUG in app: Login attempt for user: 'Polcio' from IP: 
+[2025-07-16 21:27:46,141] INFO in app: User 'Polcio' logged in successfully.
+[2025-07-16 21:27:47,226] DEBUG in app: Request: GET / from 
+[2025-07-16 21:27:47,312] DEBUG in app: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from 
+[2025-07-16 21:27:48,789] DEBUG in app: Request: GET /profile from 
+[2025-07-16 21:27:49,755] DEBUG in app: Request: GET /logowaniedozmodyfikowanieplikuhtml from 
+[2025-07-16 21:27:51,538] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:27:55,271] DEBUG in app: Request: GET /wp-admin/setup-config.php from 
+[2025-07-16 21:28:08,941] DEBUG in app: Request: GET /.well-known/assetlinks.json from 
+[2025-07-16 21:28:09,043] DEBUG in app: Request: GET /.well-known/assetlinks.json from 
+[2025-07-16 21:28:12,659] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:28:13,638] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:28:13,938] DEBUG in app: Request: GET /user_files/dowodnowy.html from 
+[2025-07-16 21:28:14,192] DEBUG in app: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from 
+[2025-07-16 21:28:14,279] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:28:14,539] DEBUG in app: Request: GET / from 
+[2025-07-16 21:28:16,369] DEBUG in app: Request: GET /user_files/dowodnowy.html from 
+[2025-07-16 21:28:16,378] DEBUG in app: Request: GET /user_files/dowodnowy.html from 
+[2025-07-16 21:28:16,464] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:28:16,502] DEBUG in app: Request: GET /login from 
+[2025-07-16 21:28:16,519] DEBUG in app: Request: GET /login from 
+[2025-07-16 21:28:16,924] DEBUG in app: Request: GET /user_files/dowodnowy.html from 
+[2025-07-16 21:28:16,974] DEBUG in app: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from 
+[2025-07-16 21:28:16,993] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:28:17,566] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:28:18,324] DEBUG in app: Request: GET /user_files/dowodnowy.html from 
+[2025-07-16 21:28:18,374] DEBUG in app: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from 
+[2025-07-16 21:28:18,401] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:28:18,830] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:28:19,428] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:28:19,859] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:28:20,260] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:28:20,968] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:28:21,577] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:28:22,052] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:28:22,530] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:28:32,648] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:28:42,752] DEBUG in app: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from 
+[2025-07-16 21:29:16,791] DEBUG in app: Request: GET /wp-admin/setup-config.php from 
+[2025-07-16 21:30:43,693] DEBUG in app: Request: GET /wordpress/wp-admin/setup-config.php from 
+[2025-07-16 21:31:02,241] DEBUG in app: Request: GET /wordpress/wp-admin/setup-config.php from 

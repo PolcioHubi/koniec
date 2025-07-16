@@ -1,0 +1,26 @@
+{
+  "testing": {
+    "password": "$2b$12$.N.aYNu6AY.rsGp8OhthUuhI.7Q7tZV7tMWBM9T5hggLniWWLhhp6",
+    "created_at": "2025-07-11T23:04:57.257933",
+    "is_active": true,
+    "last_login": "2025-07-12T01:19:22.322213",
+    "access_key_used": "V-cpbiC1TsD1jRnDDJvv9uiiNTUJBJEWg4paQKF77wQ",
+    "hubert_coins": 1
+  },
+  "testingv2": {
+    "password": "$2b$12$0jJV/dLB6ihAkjMIF8qYe.HCfQ4E8/z4P7yNbu7c8c6YvTxmGNUeO",
+    "created_at": "2025-07-11T23:17:11.583537",
+    "is_active": true,
+    "last_login": "2025-07-11T23:17:18.705639",
+    "access_key_used": "IxMRe3HfeWUutWCpqxq0BgLDUtUnJp9rJ0nrJT12aG0",
+    "hubert_coins": 2
+  },
+  "polcio1": {
+    "password": "$2b$12$aKSXnzyCheB9Q/xU3L.jJ.9FUyDjQym8M6yWVxlD87XotbcVD5/pq",
+    "created_at": "2025-07-12T01:35:26.438433",
+    "is_active": true,
+    "last_login": "2025-07-12T04:29:32.068148",
+    "access_key_used": "17V2FRXh4c0jP4u_tQBz4LgXQkpznkr3H0BSKXlcylI",
+    "hubert_coins": 3
+  }
+}

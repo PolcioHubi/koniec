@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+      - app_data:/app/user_data
+      - app_auth_data:/app/auth_data
+      - app_logs:/app/logs
+    environment:
+      FLASK_ENV: production
+      RATELIMIT_STORAGE_URL: redis://redis:6379
+      ADMIN_USERNAME: ${ADMIN_USERNAME:-admin}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-change_this_password_in_production}
+    depends_on:
+      - redis
+    command: gunicorn --config gunicorn_config.py wsgi:app
+
+  redis:
+    image: "redis:alpine"
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+volumes:
+  app_data:
+  app_auth_data:
+  app_logs:
+  redis_data:

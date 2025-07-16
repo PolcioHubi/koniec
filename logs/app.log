@@ -1,0 +1,1538 @@
+2025-07-16 20:46:14,846 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 20:46:14,846 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 20:46:14,857 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 20:46:14,857 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 20:46:14,913 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 20:46:14,913 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 20:47:07,595 WARNING: Failed admin login attempt for user: Polcio [in /var/www/mobywatel/app.py:791]
+2025-07-16 20:47:12,311 INFO: Admin login successful for user: admin [in /var/www/mobywatel/app.py:788]
+2025-07-16 20:48:54,159 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 20:48:54,159 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 20:48:54,177 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 20:48:54,177 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 20:48:54,220 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 20:48:54,220 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 20:51:51,345 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 20:51:51,345 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 20:51:51,524 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 20:51:51,524 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 20:51:51,632 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 20:51:51,632 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 20:52:02,227 DEBUG: Request: GET /admin/ from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:02,227 DEBUG: Request: GET /admin/ from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:02,560 DEBUG: Request: GET /admin/api/users from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:02,560 DEBUG: Request: GET /admin/api/users from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:02,672 DEBUG: Request: GET /admin/api/registered-users from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:02,672 DEBUG: Request: GET /admin/api/registered-users from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:02,737 DEBUG: Request: GET /admin/api/access-keys from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:02,737 DEBUG: Request: GET /admin/api/access-keys from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:04,823 DEBUG: Request: GET /admin/logout from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:04,823 DEBUG: Request: GET /admin/logout from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:04,877 DEBUG: Request: GET /admin/login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:04,877 DEBUG: Request: GET /admin/login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:07,140 DEBUG: Request: POST /admin/login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:07,140 DEBUG: Request: POST /admin/login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:07,141 INFO: Admin login successful for user: admin [in /var/www/mobywatel/app.py:799]
+2025-07-16 20:52:07,210 DEBUG: Request: GET /admin from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:07,210 DEBUG: Request: GET /admin from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:07,266 DEBUG: Request: GET /admin/ from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:07,266 DEBUG: Request: GET /admin/ from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:07,425 DEBUG: Request: GET /admin/api/users from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:07,425 DEBUG: Request: GET /admin/api/users from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:07,484 DEBUG: Request: GET /admin/api/registered-users from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:07,484 DEBUG: Request: GET /admin/api/registered-users from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:07,549 DEBUG: Request: GET /admin/api/access-keys from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:07,549 DEBUG: Request: GET /admin/api/access-keys from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:14,035 DEBUG: Request: GET /wp-admin/setup-config.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:14,035 DEBUG: Request: GET /wp-admin/setup-config.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:14,035 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 20:52:52,487 DEBUG: Request: POST /admin/api/generate-access-key from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:52,487 DEBUG: Request: POST /admin/api/generate-access-key from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:52,543 DEBUG: Request: GET /admin/api/access-keys from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:52,543 DEBUG: Request: GET /admin/api/access-keys from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:55,685 DEBUG: Request: GET /admin/logout from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:55,685 DEBUG: Request: GET /admin/logout from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:55,738 DEBUG: Request: GET /admin/login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:55,738 DEBUG: Request: GET /admin/login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:56,783 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:56,783 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:58,659 DEBUG: Request: GET /register from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:52:58,659 DEBUG: Request: GET /register from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:53:05,686 DEBUG: Request: POST /register from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:53:05,686 DEBUG: Request: POST /register from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:53:09,302 DEBUG: Request: GET /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:53:09,302 DEBUG: Request: GET /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:53:22,620 DEBUG: Request: POST /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:53:22,620 DEBUG: Request: POST /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:53:22,622 DEBUG: Login attempt for user: 'Polcio' from IP:  [in /var/www/mobywatel/app.py:1129]
+2025-07-16 20:53:22,622 DEBUG: Login attempt for user: 'Polcio' from IP:  [in /var/www/mobywatel/app.py:1129]
+2025-07-16 20:53:22,905 INFO: User 'Polcio' logged in successfully. [in /var/www/mobywatel/app.py:1141]
+2025-07-16 20:53:22,905 INFO: User 'Polcio' logged in successfully. [in /var/www/mobywatel/app.py:1141]
+2025-07-16 20:53:23,968 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:53:23,968 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:53:25,340 DEBUG: Request: GET /profile from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:53:25,340 DEBUG: Request: GET /profile from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:53:26,468 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:53:26,468 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:53:31,443 DEBUG: Request: POST / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:53:31,443 DEBUG: Request: POST / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:53:31,458 INFO: Image file received: Zrzut ekranu 2025-02-22 221507.png [in /var/www/mobywatel/app.py:663]
+2025-07-16 20:53:31,458 INFO: User name from session: Polcio [in /var/www/mobywatel/app.py:664]
+2025-07-16 20:53:31,458 INFO: Debug: app.config.get('MAX_CONTENT_LENGTH') raw value: 10485760, type: <class 'int'> [in /var/www/mobywatel/app.py:667]
+2025-07-16 20:53:31,460 ERROR: Error in index POST request: Logger._log() got an unexpected keyword argument 'extra_data' [in /var/www/mobywatel/app.py:748]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/app.py", line 688, in index
+    logging.info("Image uploaded and updated", extra_data={
+  File "/usr/lib/python3.10/logging/__init__.py", line 2138, in info
+    root.info(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1477, in info
+    self._log(INFO, msg, args, **kwargs)
+TypeError: Logger._log() got an unexpected keyword argument 'extra_data'
+2025-07-16 20:54:56,197 DEBUG: Request: GET /wp-admin/setup-config.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:54:56,197 DEBUG: Request: GET /wp-admin/setup-config.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:54:56,198 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 20:55:01,067 DEBUG: Request: GET /wordpress/wp-admin/setup-config.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:01,067 DEBUG: Request: GET /wordpress/wp-admin/setup-config.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:01,067 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 20:55:16,543 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 20:55:16,543 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 20:55:16,700 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 20:55:16,700 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 20:55:16,734 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 20:55:16,734 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 20:55:25,712 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:25,712 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:31,485 DEBUG: Request: POST / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:31,485 DEBUG: Request: POST / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:31,500 INFO: Image file received: Zrzut ekranu 2024-12-29 005939.png [in /var/www/mobywatel/app.py:663]
+2025-07-16 20:55:31,500 INFO: User name from session: Polcio [in /var/www/mobywatel/app.py:664]
+2025-07-16 20:55:31,500 INFO: Debug: app.config.get('MAX_CONTENT_LENGTH') raw value: 10485760, type: <class 'int'> [in /var/www/mobywatel/app.py:667]
+2025-07-16 20:55:31,503 INFO: Image uploaded and updated [in /var/www/mobywatel/app.py:688]
+2025-07-16 20:55:31,503 INFO: User filled form [in /var/www/mobywatel/app.py:707]
+2025-07-16 20:55:31,503 INFO: New data received from form: {'imie': 'PIOTR', 'nazwisko': 'KOWALSKI', 'obywatelstwo': 'polskie', 'data_urodzenia': '15.03.1990', 'pesel': '90031512345', 'seria_numer_mdowodu': 'ABC123456', 'termin_waznosci_mdowodu': '2030-03-15', 'data_wydania_mdowodu': '2020-03-15', 'imie_ojca_mdowod': 'JAN', 'imie_matki_mdowod': 'ANNA', 'seria_numer_dowodu': 'DEF789012', 'termin_waznosci_dowodu': '2035-12-31', 'data_wydania_dowodu': '2025-01-01', 'nazwisko_rodowe': 'KOWALSKA', 'plec': 'M', 'nazwisko_rodowe_ojca': 'KOWALSKI', 'nazwisko_rodowe_matki': 'NOWAK', 'miejsce_urodzenia': 'Warszawa', 'adres_zameldowania': 'ul. Przykładowa 123\r\n00-001 Warszawa', 'data_zameldowania': '2020-01-01', 'image_filename': 'zdjecie_686510da4d2591.91511191.jpg'} [in /var/www/mobywatel/app.py:718]
+2025-07-16 20:55:31,512 INFO: HTML file modified [in /var/www/mobywatel/app.py:735]
+2025-07-16 20:55:35,258 DEBUG: Request: GET /profile from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:35,258 DEBUG: Request: GET /profile from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:35,435 DEBUG: Request: GET /wordpress/wp-admin/setup-config.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:35,435 DEBUG: Request: GET /wordpress/wp-admin/setup-config.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:35,436 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 20:55:36,173 DEBUG: Request: GET /logowaniedozmodyfikowanieplikuhtml from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:36,173 DEBUG: Request: GET /logowaniedozmodyfikowanieplikuhtml from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:37,666 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:37,666 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:37,667 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 20:55:38,585 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:38,585 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:38,586 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 20:55:38,929 DEBUG: Request: GET /user_files/dowodnowy.html from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:38,929 DEBUG: Request: GET /user_files/dowodnowy.html from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:39,207 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:39,207 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:39,384 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:39,384 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:39,385 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 20:55:45,134 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:45,134 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:45,135 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 20:55:45,427 DEBUG: Request: GET /user_files/dowodnowy.html from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:45,427 DEBUG: Request: GET /user_files/dowodnowy.html from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:45,777 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:45,777 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:45,909 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:45,909 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:45,910 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 20:55:47,013 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:47,013 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:47,014 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 20:55:47,418 DEBUG: Request: GET /logowaniedozmodyfikowanieplikuhtml from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:47,418 DEBUG: Request: GET /logowaniedozmodyfikowanieplikuhtml from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:49,569 DEBUG: Request: GET /profile from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:55:49,569 DEBUG: Request: GET /profile from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:59:12,512 DEBUG: Request: GET /profile from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 20:59:12,512 DEBUG: Request: GET /profile from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:01:35,537 DEBUG: Request: GET /favicon.ico from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:01:35,537 DEBUG: Request: GET /favicon.ico from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:01:35,537 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:01:47,413 DEBUG: Request: POST /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:01:47,413 DEBUG: Request: POST /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:01:47,415 DEBUG: Login attempt for user: 'Polcio' from IP:  [in /var/www/mobywatel/app.py:1129]
+2025-07-16 21:01:47,415 DEBUG: Login attempt for user: 'Polcio' from IP:  [in /var/www/mobywatel/app.py:1129]
+2025-07-16 21:01:47,695 INFO: User 'Polcio' logged in successfully. [in /var/www/mobywatel/app.py:1141]
+2025-07-16 21:01:47,695 INFO: User 'Polcio' logged in successfully. [in /var/www/mobywatel/app.py:1141]
+2025-07-16 21:01:48,850 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:01:48,850 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:01:48,951 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:01:48,951 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:01:51,038 DEBUG: Request: GET /profile from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:01:51,038 DEBUG: Request: GET /profile from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:01:51,999 DEBUG: Request: GET /logowaniedozmodyfikowanieplikuhtml from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:01:51,999 DEBUG: Request: GET /logowaniedozmodyfikowanieplikuhtml from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:01:53,592 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:01:53,592 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:01:53,593 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:02:10,164 DEBUG: Request: GET /.well-known/assetlinks.json from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:02:10,164 DEBUG: Request: GET /.well-known/assetlinks.json from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:02:10,164 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:02:10,170 DEBUG: Request: GET /.well-known/assetlinks.json from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:02:10,170 DEBUG: Request: GET /.well-known/assetlinks.json from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:02:10,170 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:02:11,653 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:02:11,653 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:02:11,654 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:02:12,407 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:02:12,407 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:02:12,408 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:02:12,708 DEBUG: Request: GET /user_files/dowodnowy.html from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:02:12,708 DEBUG: Request: GET /user_files/dowodnowy.html from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:02:12,919 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:02:12,919 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:02:13,010 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:02:13,010 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:02:13,011 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:02:17,105 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:02:17,105 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:02:17,105 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:02:18,214 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:02:18,214 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:02:18,584 DEBUG: Request: GET /favicon.ico from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:02:18,584 DEBUG: Request: GET /favicon.ico from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:02:18,585 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:03:01,047 DEBUG: Request: GET /wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:03:01,047 DEBUG: Request: GET /wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:03:01,048 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:03:05,219 DEBUG: Request: GET /wp/wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:03:05,219 DEBUG: Request: GET /wp/wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:03:05,219 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:03:08,643 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:03:08,643 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:03:10,045 DEBUG: Request: GET /new/wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:03:10,045 DEBUG: Request: GET /new/wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:03:10,046 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:03:12,832 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:03:12,832 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:03:13,216 DEBUG: Request: GET /favicon.ico from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:03:13,216 DEBUG: Request: GET /favicon.ico from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:03:13,216 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:03:14,062 DEBUG: Request: GET /old/wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:03:14,062 DEBUG: Request: GET /old/wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:03:14,063 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:03:16,732 DEBUG: Request: GET /wordpress/wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:03:16,732 DEBUG: Request: GET /wordpress/wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:03:16,733 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:03:19,471 DEBUG: Request: GET /test/wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:03:19,471 DEBUG: Request: GET /test/wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:03:19,471 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:03:55,145 DEBUG: Request: GET /blog/wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:03:55,145 DEBUG: Request: GET /blog/wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:03:55,146 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:03:58,026 DEBUG: Request: GET /cms/wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:03:58,026 DEBUG: Request: GET /cms/wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:03:58,026 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:04:01,666 DEBUG: Request: GET /web/wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:04:01,666 DEBUG: Request: GET /web/wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:04:01,667 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:04:04,928 DEBUG: Request: GET /backup/wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:04:04,928 DEBUG: Request: GET /backup/wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:04:04,929 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:04:07,534 DEBUG: Request: GET /site/wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:04:07,534 DEBUG: Request: GET /site/wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:04:07,534 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:04:58,733 DEBUG: Request: GET /oldsite/wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:04:58,733 DEBUG: Request: GET /oldsite/wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:04:58,733 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:05:02,053 DEBUG: Request: GET /shop/wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:05:02,053 DEBUG: Request: GET /shop/wp-admin/install.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:05:02,053 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:05:49,256 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:05:49,256 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:10:42,305 DEBUG: Request: GET /wp-admin/setup-config.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:10:42,305 DEBUG: Request: GET /wp-admin/setup-config.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:10:42,305 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:11:45,422 DEBUG: Request: GET /wp-admin/setup-config.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:11:45,422 DEBUG: Request: GET /wp-admin/setup-config.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:11:45,422 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:12:44,956 DEBUG: Request: GET /wordpress/wp-admin/setup-config.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:12:44,956 DEBUG: Request: GET /wordpress/wp-admin/setup-config.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:12:44,956 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:12:48,809 DEBUG: Request: GET /wordpress/wp-admin/setup-config.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:12:48,809 DEBUG: Request: GET /wordpress/wp-admin/setup-config.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:12:48,810 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:14:56,983 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:14:56,983 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:14:56,984 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:14:58,473 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:14:58,473 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:18:45,309 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:18:45,309 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:18:45,413 DEBUG: Request: GET /favicon.ico from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:18:45,413 DEBUG: Request: GET /favicon.ico from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:18:45,414 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:19:01,316 DEBUG: Request: GET /register from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:19:01,316 DEBUG: Request: GET /register from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:19:03,312 DEBUG: Request: GET /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:19:03,312 DEBUG: Request: GET /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:19:04,771 DEBUG: Request: POST /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:19:04,771 DEBUG: Request: POST /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:19:04,772 DEBUG: Login attempt for user: 'Polcio' from IP:  [in /var/www/mobywatel/app.py:1129]
+2025-07-16 21:19:04,772 DEBUG: Login attempt for user: 'Polcio' from IP:  [in /var/www/mobywatel/app.py:1129]
+2025-07-16 21:19:05,046 WARNING: Login failed for user 'Polcio': Nieprawidłowa nazwa użytkownika lub hasło [in /var/www/mobywatel/app.py:1144]
+2025-07-16 21:19:05,046 WARNING: Login failed for user 'Polcio': Nieprawidłowa nazwa użytkownika lub hasło [in /var/www/mobywatel/app.py:1144]
+2025-07-16 21:19:12,997 DEBUG: Request: POST /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:19:12,997 DEBUG: Request: POST /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:19:12,998 DEBUG: Login attempt for user: 'Polcio' from IP:  [in /var/www/mobywatel/app.py:1129]
+2025-07-16 21:19:12,998 DEBUG: Login attempt for user: 'Polcio' from IP:  [in /var/www/mobywatel/app.py:1129]
+2025-07-16 21:19:13,274 WARNING: Login failed for user 'Polcio': Nieprawidłowa nazwa użytkownika lub hasło [in /var/www/mobywatel/app.py:1144]
+2025-07-16 21:19:13,274 WARNING: Login failed for user 'Polcio': Nieprawidłowa nazwa użytkownika lub hasło [in /var/www/mobywatel/app.py:1144]
+2025-07-16 21:19:33,647 DEBUG: Request: POST /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:19:33,647 DEBUG: Request: POST /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:19:33,648 DEBUG: Login attempt for user: 'Polcio' from IP:  [in /var/www/mobywatel/app.py:1129]
+2025-07-16 21:19:33,648 DEBUG: Login attempt for user: 'Polcio' from IP:  [in /var/www/mobywatel/app.py:1129]
+2025-07-16 21:19:33,921 WARNING: Login failed for user 'Polcio': Nieprawidłowa nazwa użytkownika lub hasło [in /var/www/mobywatel/app.py:1144]
+2025-07-16 21:19:33,921 WARNING: Login failed for user 'Polcio': Nieprawidłowa nazwa użytkownika lub hasło [in /var/www/mobywatel/app.py:1144]
+2025-07-16 21:20:35,550 DEBUG: Request: POST /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:20:35,550 DEBUG: Request: POST /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:20:35,552 DEBUG: Login attempt for user: 'Polcio' from IP:  [in /var/www/mobywatel/app.py:1129]
+2025-07-16 21:20:35,552 DEBUG: Login attempt for user: 'Polcio' from IP:  [in /var/www/mobywatel/app.py:1129]
+2025-07-16 21:20:35,824 WARNING: Login failed for user 'Polcio': Nieprawidłowa nazwa użytkownika lub hasło [in /var/www/mobywatel/app.py:1144]
+2025-07-16 21:20:35,824 WARNING: Login failed for user 'Polcio': Nieprawidłowa nazwa użytkownika lub hasło [in /var/www/mobywatel/app.py:1144]
+2025-07-16 21:22:19,336 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 21:22:19,336 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 21:22:19,411 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 21:22:19,411 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 21:22:19,444 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 21:22:19,444 INFO: Mobywatel application starting up... [in /var/www/mobywatel/app.py:41]
+2025-07-16 21:22:28,848 DEBUG: Request: GET /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:22:28,848 DEBUG: Request: GET /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:22:30,224 DEBUG: Request: POST /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:22:30,224 DEBUG: Request: POST /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:22:30,225 DEBUG: Login attempt for user: 'Polcio' from IP:  [in /var/www/mobywatel/app.py:1129]
+2025-07-16 21:22:30,225 DEBUG: Login attempt for user: 'Polcio' from IP:  [in /var/www/mobywatel/app.py:1129]
+2025-07-16 21:22:30,497 WARNING: Login failed for user 'Polcio': Nieprawidłowa nazwa użytkownika lub hasło [in /var/www/mobywatel/app.py:1144]
+2025-07-16 21:22:30,497 WARNING: Login failed for user 'Polcio': Nieprawidłowa nazwa użytkownika lub hasło [in /var/www/mobywatel/app.py:1144]
+2025-07-16 21:22:31,597 DEBUG: Request: POST /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:22:31,597 DEBUG: Request: POST /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:22:31,598 DEBUG: Login attempt for user: 'Polcio' from IP:  [in /var/www/mobywatel/app.py:1129]
+2025-07-16 21:22:31,598 DEBUG: Login attempt for user: 'Polcio' from IP:  [in /var/www/mobywatel/app.py:1129]
+2025-07-16 21:22:31,871 WARNING: Login failed for user 'Polcio': Nieprawidłowa nazwa użytkownika lub hasło [in /var/www/mobywatel/app.py:1144]
+2025-07-16 21:22:31,871 WARNING: Login failed for user 'Polcio': Nieprawidłowa nazwa użytkownika lub hasło [in /var/www/mobywatel/app.py:1144]
+2025-07-16 21:22:34,069 DEBUG: Request: GET /admin/login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:22:34,069 DEBUG: Request: GET /admin/login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:22:35,607 DEBUG: Request: POST /admin/login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:22:35,607 DEBUG: Request: POST /admin/login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:22:35,608 WARNING: Failed admin login attempt for user: Polcio [in /var/www/mobywatel/app.py:802]
+2025-07-16 21:22:37,312 DEBUG: Request: POST /admin/login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:22:37,312 DEBUG: Request: POST /admin/login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:22:37,313 WARNING: Failed admin login attempt for user: Polcio [in /var/www/mobywatel/app.py:802]
+2025-07-16 21:23:03,481 DEBUG: Request: POST /admin/login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:03,481 DEBUG: Request: POST /admin/login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:03,481 INFO: Admin login successful for user: admin [in /var/www/mobywatel/app.py:799]
+2025-07-16 21:23:03,542 DEBUG: Request: GET /admin from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:03,542 DEBUG: Request: GET /admin from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:03,587 DEBUG: Request: GET /admin/ from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:03,587 DEBUG: Request: GET /admin/ from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:03,657 DEBUG: Request: GET /admin/api/users from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:03,657 DEBUG: Request: GET /admin/api/users from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:03,721 DEBUG: Request: GET /admin/api/registered-users from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:03,721 DEBUG: Request: GET /admin/api/registered-users from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:03,754 DEBUG: Request: GET /admin/api/access-keys from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:03,754 DEBUG: Request: GET /admin/api/access-keys from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:07,401 DEBUG: Request: GET /admin/ from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:07,401 DEBUG: Request: GET /admin/ from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:07,488 DEBUG: Request: GET /admin/login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:07,488 DEBUG: Request: GET /admin/login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:08,447 DEBUG: Request: GET /admin/logout from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:08,447 DEBUG: Request: GET /admin/logout from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:08,481 DEBUG: Request: GET /admin/login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:08,481 DEBUG: Request: GET /admin/login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:10,193 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:10,193 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:11,711 DEBUG: Request: GET /admin from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:11,711 DEBUG: Request: GET /admin from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:11,757 DEBUG: Request: GET /admin/ from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:11,757 DEBUG: Request: GET /admin/ from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:11,792 DEBUG: Request: GET /admin/login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:11,792 DEBUG: Request: GET /admin/login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:13,011 DEBUG: Request: POST /admin/login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:13,011 DEBUG: Request: POST /admin/login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:13,012 INFO: Admin login successful for user: admin [in /var/www/mobywatel/app.py:799]
+2025-07-16 21:23:13,071 DEBUG: Request: GET /admin from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:13,071 DEBUG: Request: GET /admin from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:13,117 DEBUG: Request: GET /admin/ from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:13,117 DEBUG: Request: GET /admin/ from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:13,188 DEBUG: Request: GET /admin/api/users from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:13,188 DEBUG: Request: GET /admin/api/users from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:13,228 DEBUG: Request: GET /admin/api/registered-users from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:13,228 DEBUG: Request: GET /admin/api/registered-users from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:13,271 DEBUG: Request: GET /admin/api/access-keys from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:13,271 DEBUG: Request: GET /admin/api/access-keys from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:25,072 DEBUG: Request: POST /admin/api/reset-password from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:25,072 DEBUG: Request: POST /admin/api/reset-password from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:26,916 DEBUG: Request: GET /admin/logout from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:26,916 DEBUG: Request: GET /admin/logout from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:26,957 DEBUG: Request: GET /admin/login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:26,957 DEBUG: Request: GET /admin/login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:27,908 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:27,908 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:28,811 DEBUG: Request: GET /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:28,811 DEBUG: Request: GET /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:30,413 DEBUG: Request: POST /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:30,413 DEBUG: Request: POST /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:30,414 DEBUG: Login attempt for user: 'Polcio' from IP:  [in /var/www/mobywatel/app.py:1129]
+2025-07-16 21:23:30,414 DEBUG: Login attempt for user: 'Polcio' from IP:  [in /var/www/mobywatel/app.py:1129]
+2025-07-16 21:23:30,689 INFO: User 'Polcio' logged in successfully. [in /var/www/mobywatel/app.py:1141]
+2025-07-16 21:23:30,689 INFO: User 'Polcio' logged in successfully. [in /var/www/mobywatel/app.py:1141]
+2025-07-16 21:23:31,746 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:31,746 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:31,806 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:31,806 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:32,980 DEBUG: Request: GET /profile from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:32,980 DEBUG: Request: GET /profile from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:34,031 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:34,031 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:34,086 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:34,086 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:34,911 DEBUG: Request: GET /profile from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:34,911 DEBUG: Request: GET /profile from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:35,517 DEBUG: Request: GET /logowaniedozmodyfikowanieplikuhtml from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:35,517 DEBUG: Request: GET /logowaniedozmodyfikowanieplikuhtml from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:37,443 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:37,443 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:37,444 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:23:53,302 DEBUG: Request: GET /.well-known/assetlinks.json from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:53,302 DEBUG: Request: GET /.well-known/assetlinks.json from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:53,303 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:23:53,312 DEBUG: Request: GET /.well-known/assetlinks.json from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:53,312 DEBUG: Request: GET /.well-known/assetlinks.json from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:53,312 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:23:54,837 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:54,837 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:54,888 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:54,888 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:56,598 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:56,598 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:56,663 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:56,663 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:58,111 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:58,111 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:58,167 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:23:58,167 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:14,026 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:14,026 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:14,026 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:24:15,633 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:15,633 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:29,550 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:29,550 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:31,514 DEBUG: Request: GET /.well-known/assetlinks.json from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:31,514 DEBUG: Request: GET /.well-known/assetlinks.json from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:31,514 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:24:31,533 DEBUG: Request: GET /.well-known/assetlinks.json from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:31,533 DEBUG: Request: GET /.well-known/assetlinks.json from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:31,533 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:24:33,953 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:33,953 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:34,043 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:34,043 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:35,561 DEBUG: Request: GET /profile from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:35,561 DEBUG: Request: GET /profile from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:36,437 DEBUG: Request: GET /logowaniedozmodyfikowanieplikuhtml from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:36,437 DEBUG: Request: GET /logowaniedozmodyfikowanieplikuhtml from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:37,862 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:37,862 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:37,863 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:24:38,711 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:38,711 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:38,711 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:24:39,058 DEBUG: Request: GET /user_files/dowodnowy.html from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:39,058 DEBUG: Request: GET /user_files/dowodnowy.html from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:39,323 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:39,323 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:39,396 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:39,396 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:39,397 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:24:40,047 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:40,047 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:40,614 DEBUG: Request: GET /user_files/dowodnowy.html from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:40,614 DEBUG: Request: GET /user_files/dowodnowy.html from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:40,649 DEBUG: Request: GET /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:40,649 DEBUG: Request: GET /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:42,518 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:42,518 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:42,519 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:24:43,468 DEBUG: Request: GET /user_files/dowodnowy.html from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:43,468 DEBUG: Request: GET /user_files/dowodnowy.html from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:43,518 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:43,518 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:43,571 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:43,571 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:43,572 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:24:47,741 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:47,741 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:47,742 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:24:51,293 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:51,293 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:51,401 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:24:51,401 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:25:13,914 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:25:13,914 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:26:38,411 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:26:38,411 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:26:38,411 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:26:41,716 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:26:41,716 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:26:41,841 DEBUG: Request: GET /favicon.ico from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:26:41,841 DEBUG: Request: GET /favicon.ico from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:26:41,841 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:26:55,780 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:26:55,780 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:26:55,781 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:27:14,392 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:27:14,392 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:27:33,382 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:27:33,382 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:27:34,339 DEBUG: Request: GET /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:27:34,339 DEBUG: Request: GET /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:27:45,865 DEBUG: Request: POST /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:27:45,865 DEBUG: Request: POST /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:27:45,866 DEBUG: Login attempt for user: 'Polcio' from IP:  [in /var/www/mobywatel/app.py:1129]
+2025-07-16 21:27:45,866 DEBUG: Login attempt for user: 'Polcio' from IP:  [in /var/www/mobywatel/app.py:1129]
+2025-07-16 21:27:46,141 INFO: User 'Polcio' logged in successfully. [in /var/www/mobywatel/app.py:1141]
+2025-07-16 21:27:46,141 INFO: User 'Polcio' logged in successfully. [in /var/www/mobywatel/app.py:1141]
+2025-07-16 21:27:47,226 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:27:47,226 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:27:47,312 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:27:47,312 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:27:48,789 DEBUG: Request: GET /profile from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:27:48,789 DEBUG: Request: GET /profile from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:27:49,755 DEBUG: Request: GET /logowaniedozmodyfikowanieplikuhtml from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:27:49,755 DEBUG: Request: GET /logowaniedozmodyfikowanieplikuhtml from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:27:51,538 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:27:51,538 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:27:51,539 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:27:55,271 DEBUG: Request: GET /wp-admin/setup-config.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:27:55,271 DEBUG: Request: GET /wp-admin/setup-config.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:27:55,271 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:28:08,941 DEBUG: Request: GET /.well-known/assetlinks.json from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:08,941 DEBUG: Request: GET /.well-known/assetlinks.json from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:08,942 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:28:09,043 DEBUG: Request: GET /.well-known/assetlinks.json from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:09,043 DEBUG: Request: GET /.well-known/assetlinks.json from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:09,044 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:28:12,659 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:12,659 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:12,659 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:28:13,638 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:13,638 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:13,639 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:28:13,938 DEBUG: Request: GET /user_files/dowodnowy.html from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:13,938 DEBUG: Request: GET /user_files/dowodnowy.html from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:14,192 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:14,192 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:14,279 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:14,279 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:14,280 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:28:14,539 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:14,539 DEBUG: Request: GET / from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:16,369 DEBUG: Request: GET /user_files/dowodnowy.html from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:16,369 DEBUG: Request: GET /user_files/dowodnowy.html from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:16,378 DEBUG: Request: GET /user_files/dowodnowy.html from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:16,378 DEBUG: Request: GET /user_files/dowodnowy.html from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:16,464 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:16,464 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:16,464 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:28:16,502 DEBUG: Request: GET /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:16,502 DEBUG: Request: GET /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:16,519 DEBUG: Request: GET /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:16,519 DEBUG: Request: GET /login from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:16,924 DEBUG: Request: GET /user_files/dowodnowy.html from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:16,924 DEBUG: Request: GET /user_files/dowodnowy.html from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:16,974 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:16,974 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:16,993 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:16,993 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:16,994 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:28:17,566 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:17,566 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:17,567 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:28:18,324 DEBUG: Request: GET /user_files/dowodnowy.html from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:18,324 DEBUG: Request: GET /user_files/dowodnowy.html from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:18,374 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:18,374 DEBUG: Request: GET /user_files/zdjecie_686510da4d2591.91511191.jpg from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:18,401 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:18,401 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:18,402 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:28:18,830 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:18,830 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:18,831 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:28:19,428 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:19,428 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:19,429 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:28:19,859 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:19,859 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:19,859 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:28:20,260 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:20,260 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:20,260 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:28:20,968 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:20,968 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:20,969 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:28:21,577 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:21,577 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:21,578 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:28:22,052 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:22,052 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:22,052 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:28:22,530 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:22,530 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:22,531 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:28:32,648 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:32,648 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:32,649 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:28:42,752 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:42,752 DEBUG: Request: GET /cdn-cgi/challenge-platform/scripts/jsd/main.js from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:28:42,753 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:29:16,791 DEBUG: Request: GET /wp-admin/setup-config.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:29:16,791 DEBUG: Request: GET /wp-admin/setup-config.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:29:16,791 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:30:43,693 DEBUG: Request: GET /wordpress/wp-admin/setup-config.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:30:43,693 DEBUG: Request: GET /wordpress/wp-admin/setup-config.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:30:43,693 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-07-16 21:31:02,241 DEBUG: Request: GET /wordpress/wp-admin/setup-config.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:31:02,241 DEBUG: Request: GET /wordpress/wp-admin/setup-config.php from  [in /var/www/mobywatel/app.py:524]
+2025-07-16 21:31:02,241 ERROR: HTTP Error 404: Resource not found. [in /var/www/mobywatel/app.py:98]
+Traceback (most recent call last):
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 891, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/app.py", line 500, in raise_routing_exception
+    raise request.routing_exception  # type: ignore[misc]
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/flask/ctx.py", line 362, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "/var/www/mobywatel/venv/lib/python3.10/site-packages/werkzeug/routing/map.py", line 629, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
