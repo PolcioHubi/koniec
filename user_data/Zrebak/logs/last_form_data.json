@@ -1,0 +1,23 @@
+{
+  "imie": "BARTŁOMIEJ",
+  "nazwisko": "WAŃKOWICZ",
+  "obywatelstwo": "POLSKIE",
+  "data_urodzenia": "03.05.2007",
+  "pesel": "07250350693",
+  "seria_numer_mdowodu": "TRF533223",
+  "termin_waznosci_mdowodu": "2030-03-17",
+  "data_wydania_mdowodu": "2020-03-17",
+  "imie_ojca_mdowod": "JAN",
+  "imie_matki_mdowod": "AGATA",
+  "seria_numer_dowodu": "TRF533223",
+  "termin_waznosci_dowodu": "2030-03-17",
+  "data_wydania_dowodu": "2020-03-17",
+  "nazwisko_rodowe": "Wańkowicz",
+  "plec": "M",
+  "nazwisko_rodowe_ojca": "Wańkowicz",
+  "nazwisko_rodowe_matki": "Lewandowska",
+  "miejsce_urodzenia": "Warszawa",
+  "adres_zameldowania": "Rybałtów 5 02-886 Warszawa",
+  "data_zameldowania": "2020-06-16",
+  "image_filename": "zdjecie_686510da4d2591.91511191.jpg"
+}

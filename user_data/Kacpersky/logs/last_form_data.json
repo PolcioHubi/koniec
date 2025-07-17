@@ -1,0 +1,23 @@
+{
+  "imie": "MICHAŁ",
+  "nazwisko": "MAZUREK",
+  "obywatelstwo": "POLSKIE",
+  "data_urodzenia": "12.03.2007",
+  "pesel": "07231250457",
+  "seria_numer_mdowodu": "BGJ167836",
+  "termin_waznosci_mdowodu": "2035-03-12",
+  "data_wydania_mdowodu": "2025-03-12",
+  "imie_ojca_mdowod": "GRZEGORZ",
+  "imie_matki_mdowod": "KALINA",
+  "seria_numer_dowodu": "BGJ167836",
+  "termin_waznosci_dowodu": "2035-03-12",
+  "data_wydania_dowodu": "2025-03-12",
+  "nazwisko_rodowe": "MAZUREK",
+  "plec": "M",
+  "nazwisko_rodowe_ojca": "MAZUREK",
+  "nazwisko_rodowe_matki": "KOWALSKA",
+  "miejsce_urodzenia": "WARSZAWA",
+  "adres_zameldowania": "ul.Marszałkowska 23, 00-026, Warszawa",
+  "data_zameldowania": "2007-03-12",
+  "image_filename": "zdjecie_686510da4d2591.91511191.jpg"
+}

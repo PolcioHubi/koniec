@@ -1,0 +1,23 @@
+{
+  "imie": "Franciszek",
+  "nazwisko": "Skrzynecki",
+  "obywatelstwo": "Polskie",
+  "data_urodzenia": "11.07.2007",
+  "pesel": "07271192731",
+  "seria_numer_mdowodu": "GUE7191614",
+  "termin_waznosci_mdowodu": "2029-05-09",
+  "data_wydania_mdowodu": "2030-12-02",
+  "imie_ojca_mdowod": "Jan",
+  "imie_matki_mdowod": "Aneta",
+  "seria_numer_dowodu": "TOP5282016",
+  "termin_waznosci_dowodu": "2029-07-27",
+  "data_wydania_dowodu": "2030-04-11",
+  "nazwisko_rodowe": "Skrzynecki",
+  "plec": "M",
+  "nazwisko_rodowe_ojca": "Szkrzynecki",
+  "nazwisko_rodowe_matki": "Szot",
+  "miejsce_urodzenia": "Warszawa",
+  "adres_zameldowania": "Przy Torach 3, 02-231 Warszawa",
+  "data_zameldowania": "2016-05-04",
+  "image_filename": "zdjecie_686510da4d2591.91511191.jpg"
+}

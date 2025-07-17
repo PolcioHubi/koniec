@@ -2,6 +2,7 @@
 
 # ==============================================================================
 # Skrypt do pełnego wdrożenia aplikacji Flask/Gunicorn z Nginx, SSL i Logowaniem
+# Wersja uruchamiająca aplikację bezpośrednio z jej katalogu źródłowego.
 # ==============================================================================
 
 # Zatrzymaj skrypt w przypadku błędu
@@ -10,10 +11,9 @@ set -e
 # --- ZMIENNE KONFIGURACYJNE (dostosuj do swoich potrzeb) ---
 SERVICE_NAME="mobywatel"
 PROJECT_USER="ubuntu"
-# Automatyczne rozpoznawanie ścieżki do katalogu, w którym znajduje się ten skrypt
-SOURCE_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
-# Katalog docelowy, gdzie będzie działać aplikacja
-DEST_DIR="/var/www/$SERVICE_NAME"
+# Automatyczne rozpoznawanie ścieżki do katalogu aplikacji.
+# Skrypt zakłada, że znajduje się w głównym katalogu projektu.
+DEST_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 # Twoja domena (bez https://)
 DOMAIN="gov-mobywatel.website"
 # Twój adres e-mail dla certyfikatu SSL
@@ -21,17 +21,16 @@ SSL_EMAIL="polciohubi19@wp.pl"
 
 
 echo ">>> START: Rozpoczynanie wdrożenia aplikacji $SERVICE_NAME..."
-echo ">>> Wykryto katalog źródłowy: $SOURCE_DIR"
+echo ">>> Katalog aplikacji (uruchomienie z źródła): $DEST_DIR"
 
 # --- KROK 1: Instalacja podstawowych zależności ---
 echo ">>> KROK 1: Instalowanie Nginx, Pip, Venv i Certbota..."
 sudo apt-get update
 sudo apt-get install -y nginx python3-pip python3-venv certbot python3-certbot-nginx
 
-# --- KROK 2: Przygotowanie katalogu aplikacji i kopiowanie plików ---
-echo ">>> KROK 2: Tworzenie katalogu $DEST_DIR i kopiowanie plików..."
-sudo mkdir -p $DEST_DIR
-sudo rsync -a --delete "$SOURCE_DIR/" "$DEST_DIR/" --exclude ".git" --exclude "*.pyc" --exclude "__pycache__" --exclude "deploy_ubuntu.sh"
+# --- KROK 2: Przygotowanie katalogu aplikacji ---
+echo ">>> KROK 2: Ustawianie właściciela katalogu $DEST_DIR..."
+# Zmieniamy właściciela katalogu projektu, aby użytkownik usługi miał odpowiednie uprawnienia
 sudo chown -R $PROJECT_USER:$PROJECT_USER $DEST_DIR
 
 # --- KROK 2.5: Tworzenie katalogu na logi ---
